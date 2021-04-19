@@ -24,7 +24,7 @@ slidesPerView: 'auto',
 // lazy: {
 // 	loadPrevNext: true,
 //   },
-  spaceBetween: 10,
+  spaceBetween: 0,
   loop: true,
 // autoplay: {
 //   delay: 2000,
@@ -80,7 +80,17 @@ slidesPerView: 'auto',
 
   });
  
+  var swiper = new Swiper(".origin_slider", {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    loop: true,
 
+  });
+ 
 
 
 
