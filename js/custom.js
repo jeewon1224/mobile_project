@@ -91,6 +91,29 @@ slidesPerView: 'auto',
 
   });
  
+ 
+  var swiper = new Swiper(".people_slider", {
+    slidesPerView: "auto",
+    spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    loop: true,
+
+  });
+ 
+
+  var swiper = new Swiper(".know_slider", {
+    slidesPerView: 1,
+    spaceBetween: 100,
+    scrollbar: {
+      el: '.know.swiper-scrollbar',
+      hide: true,
+    },
+    loop: true,
+
+  });
 
 
 
