@@ -13,83 +13,72 @@
 <body>
   <header class="header">
     <div class="header_wrap">
-      <span><i class="fi-rr-menu-dots"></i></span>
-      <a href="#" class="logo"><img src="img/netflix_logo.png" alt=""><span class="blind">로그인</span></a>
-      <a href="#" class="pfofile"></a>
+      <span class="menu_btn">
+        <a href="javascript;"><span class="blind">메뉴</span>
+          <i></i>
+          <i></i>
+          <i></i>
+       </a>
+      </span>
+      <h1><a href=""><span class="blind">넷플릭스</span></a></h1>
+      
+      <a href="#" class="profile"><img src="img/profile.png" alt="프로필"></a>
     </div>
   </header>
 
-  <section class="container">
+  <main class="container">
     <div class="main_banner">
       <div class="swiper-container banner_slider">
-        <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
-            <!-- Slides -->
             <div class="swiper-slide">
-              <img src="img/main_banner_01.jpg" alt="">
+              <a href="#">
+                <img src="img/main_banner_01.jpg" alt="">
+                <div class="txt_wrap">
+                  <strong>겨울왕국</strong>
+                  <p>어쩌구 저쩌구</p>
+                </div>
+              </a>
             </div>
             <div class="swiper-slide">
-              <img src="img/main_banner_01.jpg" alt="">
+              <a href="#">
+                <img src="img/main_banner_01.jpg" alt="">
+                <div class="txt_wrap">
+                  <strong>겨울왕국</strong>
+                  <p>어쩌구 젖쩌구</p>
+                </div>
+              </a>
             </div>
-            <div class="swiper-slide">
-              <img src="img/main_banner_01.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-              <img src="img/main_banner_01.jpg" alt="">
-            </div>
+            
         </div>
-          <!-- If we need navigation buttons -->
-        <!-- <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div> -->
       </div>
     </div>
 
     <div class="continue">
       <div class="continue_wrapper">
-        <h1>CONTINUE <em>WATCHING</em><i class="fi-rr-angle-right"></i></h1>
-        <div class="swiper-slider con_slider">
+        <h2>CONTINUE <em>WATCHING</em><i class="fi-rr-angle-right"></i></h2>
+        <div class="swiper-container con_slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image1.jpg" alt="">
+                <img src="img/image1.jpg" alt=""> 
               </div>
               <div class="desc">
+                <span class="playtime">
+                  <span style="width:67%"></span>
+                </span>
                 <em class="tit">S1:E1</em>
-                <span class="play"><i class="fi-rr-caret-right"></i>Play</span>
+                <span class="play">
+                  <i class="fi-rr-caret-right"></i><span class="blind">play</span></span>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image1.jpg" alt="">
+                <img src="img/image1.jpg" alt=""> 
               </div>
               <div class="desc">
-                <em class="tit">S1:E1</em>
-                <span class="play"><i class="fi-rr-caret-right"></i>Play</span>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="img_wrap">
-                <img src="img/image1.jpg" alt="">
-              </div>
-              <div class="desc">
-                <em class="tit">S1:E1</em>
-                <span class="play"><i class="fi-rr-caret-right"></i>Play</span>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="img_wrap">
-                <img src="img/image1.jpg" alt="">
-              </div>
-              <div class="desc">
-                <em class="tit">S1:E1</em>
-                <span class="play"><i class="fi-rr-caret-right"></i>Play</span>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="img_wrap">
-                <img src="img/image1.jpg" alt="">
-              </div>
-              <div class="desc">
+                <span class="playtime">
+                  <span style="width:67%"></span>
+                </span>
                 <em class="tit">S1:E1</em>
                 <span class="play"><i class="fi-rr-caret-right"></i>Play</span>
               </div>
@@ -101,27 +90,35 @@
 
     <div class="my_list">
       <div class="myList_wrapper">
-        <h1>MY <em>LIST</em><i class="fi-rr-angle-right"></i></h1>
+        <h2>MY <em>LIST </em><i class="fi-rr-angle-right"></i></h2>
         <div class="swiper-container myList_slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image2.jpg" alt="">
+                <a href="#">
+                  <img src="img/image2.jpg" alt="">
+                </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image2.jpg" alt="">
+                <a href="#">
+                  <img src="img/image2.jpg" alt="">
+                </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image2.jpg" alt="">
+                <a href="#">
+                  <img src="img/image2.jpg" alt="">
+                </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image2.jpg" alt="">
+                <a href="#">
+                  <img src="img/image2.jpg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -131,27 +128,35 @@
 
     <div class="original">
       <div class="origin_wrapper">
-        <h1><em>NETFLIX </em>ORIGINALS <i class="fi-rr-angle-right"></i></h1>
+        <h2><em>NETFLIX </em>ORIGINALS <i class="fi-rr-angle-right"></i></h2>
         <div class="swiper-container origin_slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image3.jpg" alt="">
+                <a href="#">
+                  <img src="img/image3.jpg" alt="">
+                </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image3.jpg" alt="">
+                <a href="#">
+                  <img src="img/image3.jpg" alt="">
+                </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image3.jpg" alt="">
+                <a href="#">
+                  <img src="img/image3.jpg" alt="">
+                </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="img_wrap">
-                <img src="img/image3.jpg" alt="">
+                <a href="#">
+                  <img src="img/image3.jpg" alt="">
+                </a>
               </div>
             </div>
           </div>
@@ -164,31 +169,42 @@
     <div class="news">
       <div class="news_wrapper">
         <div class="tit_wrap clear">
-          <h1>HOT NEWS</h1>
+          <h2>HOT NEWS</h2>
           <a href="#" class="all_btn">See all <i class="fi-rr-angle-right"></i></a>
         </div>
 
-        <div class="news_contents">
+        <div class="news_contents clear">
           <div class="item item1">
-            <div class="tag">MOVIES</div>
-            <div class="headline">Marvle is preparing her version of the Justice League!</div>
-            <div class="update_time">7 hours ago</div>
+            <a href="#">
+              <img src="img/image4.jpg" alt="" class="bg">
+              <em>MOVIES</em>
+              <div class="txt_wrap">
+                <strong>Marvle is preparing her version of the Justice League!</strong>
+                <span>7 hours ago</span>
+              </div>
+            </a>
           </div>
           <div class="item item2">
-            <div class="tag">INTERVIEW</div>
-            <div class="headline">Marvle is preparing her version of the Justice League! Marvle is preparing her version of the Justice League</div>
-            <div class="update_time">7 hours ago</div>
+            <a href="#">
+              <img src="img/image4.jpg" alt="" class="bg">
+              <em>MOVIES</em>
+              <div class="txt_wrap">
+                <strong>Marvle is preparing her version of the Justice League!</strong>
+                <span>7 hours ago</span>
+              </div>
+            </a>
           </div>
           <div class="item item3">
-            <div class="tag">MOVIES</div>
-            <div class="headline">Marvle is preparing her version of the Justice League!</div>
-            <div class="update_time">7 hours ago</div>
-          </div>
-          <div class="item item4">
-            <div class="tag">MOVIES</div>
-            <div class="headline">Marvle is preparing her version of the Justice League!</div>
-            <div class="update_time">7 hours ago</div>
-          </div>
+            <a href="#">
+              <img src="img/image4.jpg" alt="" class="bg">
+              <em>MOVIES</em>
+              <div class="txt_wrap">
+                <strong>Marvle is preparing her version of the Justice League!</strong>
+                <span>7 hours ago</span>
+              </div>
+            </a>
+          </div>  
+          
         </div>
       </div>
     </div>
@@ -196,34 +212,54 @@
     <div class="recommend">
       <div class="recom_wrapper">
         <div class="tit_wrap">
-          <a href="#" class="recom_logo"><img src="img/netflix_logo.png" alt=""></a>
           <p>You don't know what to watch today evening?</p>
         </div>
         <div class="recom_content clear">
-          <div class="recom_item">
-            <div class="image">
-              <img src="img/image5.jpg" alt="">
+          <div class="inner">
+            
+            <div class="recom_item">
+              <div class="image_wrap">
+                <img src="img/image5.jpg" alt="">
+              </div>
+              <div class="percentage">
+                <span class="per_line line01">
+                  <i></i>
+                  <i></i>
+                  <i></i> 
+                  <i></i> 
+                </span>
+                <i class="txt">88%</i>
+              </div>
             </div>
-            <div class="percentage">
-              <i class="fi-rr-signal-alt-1"></i> 88%</i>
+            <div class="recom_item">
+              <div class="image_wrap">
+                <img src="img/image5.jpg" alt="">
+              </div>
+              <div class="percentage">
+                <span class="per_line line02">
+                  <i></i>
+                  <i></i>
+                  <i></i> 
+                </span>
+                <i class="txt">88%</i>
+              </div>
+            </div>
+            <div class="recom_item">
+              <div class="image_wrap">
+                <img src="img/image5.jpg" alt="">
+              </div>
+              <div class="percentage">
+                <span class="per_line line03">
+                  <i></i>
+                  <i></i>
+                  <i></i> 
+                </span>
+                <i class="txt">88%</i>
+              </div>
             </div>
           </div>
-          <div class="recom_item">
-            <div class="image">
-              <img src="img/image5.jpg" alt="">
-            </div>
-            <div class="percentage">
-              <i class="fi-rr-signal-alt-1"></i> 88%</i>
-            </div>
-          </div>
-          <div class="recom_item">
-            <div class="image">
-              <img src="img/image5.jpg" alt="">
-            </div>
-            <div class="percentage">
-              <i class="fi-rr-signal-alt-1"></i> 88%</i>
-            </div>
-          </div>
+          
+         
         </div>
         <a href="#" class="filmweb">Check Netflix on Filmweb <i class="fi-rr-angle-right"></i></a>
       </div>
@@ -231,7 +267,7 @@
 
     <div class="people">
       <div class="people_wrapper">
-        <h1>People of the day</h1>
+        <h2>People of the day</h2>
         <div class="swiper-container people_slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -263,23 +299,20 @@
           <div class="swiper-slide">
             <div class="inner">
               
-              <span class="category">TEST</span>
+              <em class="category">TEST</em>
               <h2>How good do you<br>know Charlie?</h2>
               <div class="pop_image">
                 <img src="img/know1.png" alt="">
               </div>
               <a href="#" class="clear">Start
                 <div class="icons">
-                  <i class="fi-rr-angle-double-right"></i>
-                  <i class="fi-rr-angle-double-right"></i>
-                  <i class="fi-rr-angle-double-right"></i>
+                  
                 </div>
               </a>
             </div>
           </div>
 
         </div>
-        <!-- Add Scrollbar -->
         <div class="know swiper-scrollbar"></div>
       </div>
     </div>
@@ -287,8 +320,8 @@
     <div class="box_office">
       <div class="bo_wrapper">
         <div class="tit_wrap">
-          <h1>World Box Office</h1>
-          <span> May 17 - 19, 2019</span>
+          <h2>World Box Office</h2>
+          <span>May 17 - 19, 2019</span>
           <select class="period">
             <option value="daily">Daily</option>
             <option value="weekly" selected="selected">Weekly</option>
@@ -301,7 +334,51 @@
             <span class="num">1</span>
             <div class="movie_title">
               <strong>John Wick : Chapter 3</strong>
-              <span class="week">Week 1</span>
+              <span class="week">Weeks : 1</span>
+            </div>
+            <div class="income">
+              <em>$58.8M</em>
+              <span class="budget">Budget : $100M</span>
+            </div>
+          </div>
+          <div class="ranking_item clear">
+            <span class="num">2</span>
+            <div class="movie_title">
+              <strong>John Wick : Chapter 3</strong>
+              <span class="week">Weeks : 1</span>
+            </div>
+            <div class="income">
+              <em>$58.8M</em>
+              <span class="budget">Budget : $100M</span>
+            </div>
+          </div>
+          <div class="ranking_item clear">
+            <span class="num">3</span>
+            <div class="movie_title">
+              <strong>John Wick : Chapter 3</strong>
+              <span class="week">Weeks : 1</span>
+            </div>
+            <div class="income">
+              <em>$58.8M</em>
+              <span class="budget">Budget : $100M</span>
+            </div>
+          </div>
+          <div class="ranking_item clear">
+            <span class="num">4</span>
+            <div class="movie_title">
+              <strong>John Wick : Chapter 3</strong>
+              <span class="week">Weeks : 1</span>
+            </div>
+            <div class="income">
+              <em>$58.8M</em>
+              <span class="budget">Budget : $100M</span>
+            </div>
+          </div>
+          <div class="ranking_item clear">
+            <span class="num">5</span>
+            <div class="movie_title">
+              <strong>John Wick : Chapter 3</strong>
+              <span class="week">Weeks : 1</span>
             </div>
             <div class="income">
               <em>$58.8M</em>
@@ -314,7 +391,19 @@
 
     
 
-  </section>
+  </main>
+
+  <footer class="footer">
+
+    <span>넷플릭스서비시스코리아 유한회사 통신판매업신고번호: 제2018-서울종로-0426호 전화번호: 00-308-321-0058</span>
+    <span>대표: 레지널드 숀 톰프슨</span>
+    <span>이메일 주소: korea@netflix.com</span>
+    <span>주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161</span>
+    <span>클라우드 호스팅: Amazon Web Services Inc.</span>
+    <span>공정거래위원회 웹사이트 링크</span>
+  </footer>
+
+
 
 
 

@@ -1,17 +1,5 @@
 $(document).ready(function() {
 
- // var mySwiper = new Swiper(".banner_slider", {
- //   spaceBetween: 150,
- //   slidesPerView: 'auto',
- //   centeredSlides: true,
- //   roundLengths: true,
- //   loop: true,
- //   navigation: {
- //     nextEl: ".swiper-button-next",
- //     prevEl: ".swiper-button-prev"
- //   }
- // });
-
 
 
 
@@ -20,16 +8,16 @@ $(document).ready(function() {
  
  var swiper = new Swiper('.banner_slider', {
   centeredSlides: true,
-slidesPerView: 'auto',
-// lazy: {
-// 	loadPrevNext: true,
-//   },
-  spaceBetween: 0,
-  loop: true,
-// autoplay: {
-//   delay: 2000,
-// 	disableOnInteraction: false,
-// },
+  slidesPerView: 1.1,
+  // lazy: {
+  // 	loadPrevNext: true,
+  //   },
+    spaceBetween: 0,
+    loop: true,
+  // autoplay: {
+  //   delay: 2000,
+  // 	disableOnInteraction: false,
+  // },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -63,7 +51,7 @@ slidesPerView: 'auto',
       el: ".swiper-pagination",
       clickable: true
     },
-    loop: true,
+    // loop: true,
 
   });
  
@@ -76,7 +64,7 @@ slidesPerView: 'auto',
       el: ".swiper-pagination",
       clickable: true
     },
-    loop: true,
+    // loop: true,
 
   });
  
@@ -87,7 +75,7 @@ slidesPerView: 'auto',
       el: ".swiper-pagination",
       clickable: true
     },
-    loop: true,
+    // loop: true,
 
   });
  
@@ -99,17 +87,17 @@ slidesPerView: 'auto',
       el: ".swiper-pagination",
       clickable: true
     },
-    loop: true,
+    // loop: true,
 
   });
  
 
   var swiper = new Swiper(".know_slider", {
     slidesPerView: 1,
-    spaceBetween: 100,
+    spaceBetween: 10,
     scrollbar: {
       el: '.know.swiper-scrollbar',
-      hide: true,
+      // hide: true,
     },
     loop: true,
 
