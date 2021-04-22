@@ -1,0 +1,154 @@
+[
+ {
+   "posi":"main", 
+    "subject": "Frozen2",
+    "desc": "This is a story about animation Frozen 2..",
+    "src": "img/main_01.jpg",
+    "playtime": "50%"
+ },
+ {
+  "posi":"main", 
+   "subject": "Little Women",
+   "desc": "This is a story about Little Women..",
+   "src": "img/main_02.jpg",
+   "playtime": "50%"
+},
+{
+   "posi":"main", 
+    "subject": "Florida Project",
+    "desc": "Ths is a story about Florida Project..",
+    "src": "img/main_03.jpg",
+    "playtime": "50%"
+ },
+ {
+   "posi":"main", 
+    "subject": "La La Land",
+    "desc": "This is a story about Little Women..",
+    "src": "img/main_04.jpg",
+    "playtime": "50%"
+   },
+  {
+      "posi":"main", 
+       "subject": "How to Train your Dragon 3",
+       "desc": "This is a story about Little Women..",
+       "src": "img/main_05.jpg",
+       "playtime": "50%"
+    },
+
+
+
+
+    {
+      "posi":"continue", 
+       "subject": "The Queen's Gambit",
+       "desc": "This is a story about The Queen's Gambit..",
+       "src": "img/continue_01.jpg",
+       "playtime": "50%"
+    },  
+    {
+      "posi":"continue", 
+       "subject": "Broadchurch S1:E01",
+       "desc": "This is a story about Broadchurch..",
+       "src": "img/continue_02.jpg",
+       "playtime": "50%"
+    },  
+    {
+      "posi":"continue", 
+       "subject": "Unorthodox E02",
+       "desc": "This is a story about Unorthodox..",
+       "src": "img/continue_03.jpg",
+       "playtime": "50%"
+    },  
+    {
+      "posi":"continue", 
+       "subject": "The Trial of the Chicago 7",
+       "desc": "This is a story about The Trial of the Chicago 7..",
+       "src": "img/continue_04.jpg",
+       "playtime": "50%"
+    },  
+    {
+      "posi":"continue", 
+       "subject": "Arrival",
+       "desc": "This is a story about Arrival..",
+       "src": "img/continue_05.jpg",
+       "playtime": "50%"
+    },
+
+
+
+    {
+      "posi":"mylist", 
+       "subject": "The Secret Life of Walter Mitty",
+       "desc": "This is a story about The Secret Life of Walter Mitty..",
+       "src": "img/mylist_01.jpg",
+       "playtime": "50%"
+    },
+    {
+      "posi":"mylist", 
+       "subject": "Spotlight",
+       "desc": "This is a story about Spotlight..",
+       "src": "img/mylist_02.jpg",
+       "playtime": "50%"
+    },
+    {
+      "posi":"mylist", 
+       "subject": "Midsommar",
+       "desc": "This is a story about Midsommar..",
+       "src": "img/mylist_03.jpg",
+       "playtime": "50%"
+    },
+    {
+      "posi":"mylist", 
+       "subject": "Harry Potter and Goblet of Fire",
+       "desc": "This is a story about Harry Potter and Goblet of Fire..",
+       "src": "img/mylist_04.jpg",
+       "playtime": "50%"
+    },
+    {
+      "posi":"mylist", 
+       "subject": "End Game",
+       "desc": "This is a story about End Game..",
+       "src": "img/mylist_05.jpg",
+       "playtime": "50%"
+    },
+
+
+    {
+      "posi":"original", 
+       "subject": "The Lobster",
+       "desc": "This is a story about The Lobster..",
+       "src": "img/original_01.jpg",
+       "playtime": "50%"
+    },
+    {
+      "posi":"original", 
+       "subject": "Sicario ",
+       "desc": "This is a story about Sicario..",
+       "src": "img/original_02.jpgc",
+       "playtime": "50%"
+    },
+    {
+      "posi":"original", 
+       "subject": "Lady Bird",
+       "desc": "This is a story about Lady Bird..",
+       "src": "img/original_03.jpg",
+       "playtime": "50%"
+    },
+    {
+      "posi":"original", 
+       "subject": "The Shape of Water",
+       "desc": "This is a story about The Shape of Water..",
+       "src": "img/original_04.jpg",
+       "playtime": "50%"
+    },
+    {
+      "posi":"original", 
+       "subject": "Marie Antoinette",
+       "desc": "This is a story about Marie Antoinette..",
+       "src": "img/original_05.jpg",
+       "playtime": "50%"
+    }
+
+    
+
+] 

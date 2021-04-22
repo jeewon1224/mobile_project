@@ -1,0 +1,169 @@
+[
+  {
+    "posi":"news",
+    "tag": "Movie",
+    "heeadline": "DC is preparing her version of the Justice League!",
+    "src": "img/news_01.jpg",
+    "update_time": "7 hours"
+  },
+  {
+    "posi":"news", 
+    "tag": "Interview",
+    "heeadline": "Interview with ...",
+    "src": "img/news_02.jpg",
+    "update_time": " 9 hours"
+  },
+  {
+    "posi":"news", 
+    "tag": "Movie",
+    "heeadline": "DC is preparing her version of the Justice League!",
+    "src": "img/news_03.jpg",
+    "update_time": "12 hours"
+  },
+  {
+    "posi":"news", 
+    "tag": "Interview",
+    "heeadline": "Interview with ...",
+    "src": "img/news_04.jpg",
+    "update_time": "2 days"
+  },
+  {
+    "posi":"news", 
+    "tag": "Movie",
+    "heeadline": "This is a story about animation Frozen 2..",
+    "src": "img/news_05.jpg",
+    "update_time": "4 days"
+  }, 
+
+
+  {
+    "posi":"recom", 
+    "subject": "The Trial of the Chicago 7",
+    "percent": "88",
+    "src": "img/recom_01.jpg"
+  }, 
+  {
+    "posi":"recom", 
+    "subject": "The Trial of the Chicago 7",
+    "percent": "90",
+    "src": "img/recom_02.jpg"
+  }, 
+  {
+    "posi":"recom", 
+    "subject": "The Trial of the Chicago 7",
+    "percent": "95",
+    "src": "img/recom_03.jpg"
+  }, 
+  {
+    "posi":"recom", 
+    "subject": "The Trial of the Chicago 7",
+    "percent": "80",
+    "src": "img/recom_04.jpg"
+  }, 
+  {
+    "posi":"recom", 
+    "subject": "The Trial of the Chicago 7",
+    "percent": "92",
+    "src": "img/recom_05.jpg"
+  }, 
+
+
+
+  {
+    "posi":"people", 
+    "name": "name",
+    "src": "img/people_01.jpg"
+  }, 
+  {
+    "posi":"people", 
+    "name": "name",
+    "src": "img/people_02.jpg"
+  }, 
+  {
+    "posi":"people", 
+    "name": "name",
+    "src": "img/people_03.jpg"
+  }, 
+  {
+    "posi":"people", 
+    "name": "name name",
+    "src": "img/people_04.jpg"
+  }, 
+  {
+    "posi":"people", 
+    "name": "name",
+    "src": "img/people_05.jpg"
+  }, 
+  {
+    "posi":"people", 
+    "name": "name",
+    "src": "img/people_06.jpg"
+  }, 
+
+
+  {
+    "posi":"knowledge", 
+    "desc": "desc..",
+    "src": "img/know_01.png"
+  }, 
+  {
+    "posi":"knowledge", 
+    "desc": "desc..",
+    "src": "img/know_02.png"
+  }, 
+  {
+    "posi":"knowledge", 
+    "desc": "desc..",
+    "src": "img/know_03.png"
+  }, 
+  {
+    "posi":"knowledge", 
+    "desc": "desc..",
+    "src": "img/know_04.png"
+  }, 
+  {
+    "posi":"knowledge", 
+    "desc": "desc..",
+    "src": "img/know_05.png"
+  }, 
+
+
+
+
+
+  {
+    "posi":"boxoffice", 
+    "subject": "John Wick : Chapter 3",
+    "week": "1",
+    "income": "$58.8M",
+    "budget": "$200M"
+  }, 
+  {
+    "posi":"boxoffice", 
+    "subject": "Avengers : Endgame",
+    "week": "4",
+    "income": "$58.8M",
+    "budget": "$120M"
+  }, 
+  {
+    "posi":"boxoffice", 
+    "subject": "Frozen 2",
+    "week": "2",
+    "income": "$58.8M",
+    "budget": "$100M"
+  }, 
+  {
+    "posi":"boxoffice", 
+    "subject": "Arrival",
+    "week": "1",
+    "income": "$58.8M",
+    "budget": "$80M"
+  }, 
+  {
+    "posi":"boxoffice", 
+    "subject": "The Trial of the Chicago 7",
+    "week": "2",
+    "income": "$58.8M",
+    "budget": "$60M"
+  }
+]
