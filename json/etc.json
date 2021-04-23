@@ -135,7 +135,7 @@
     "posi":"boxoffice", 
     "subject": "John Wick : Chapter 3",
     "week": "1",
-    "income": "$58.8M",
+    "income": "$100M",
     "budget": "$200M"
   }, 
   {
@@ -149,21 +149,21 @@
     "posi":"boxoffice", 
     "subject": "Frozen 2",
     "week": "2",
-    "income": "$58.8M",
+    "income": "$50M",
     "budget": "$100M"
   }, 
   {
     "posi":"boxoffice", 
     "subject": "Arrival",
     "week": "1",
-    "income": "$58.8M",
+    "income": "$48M",
     "budget": "$80M"
   }, 
   {
     "posi":"boxoffice", 
     "subject": "The Trial of the Chicago 7",
     "week": "2",
-    "income": "$58.8M",
+    "income": "$38.8M",
     "budget": "$60M"
   }
 ]
