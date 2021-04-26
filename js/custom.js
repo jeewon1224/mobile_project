@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
-
+  $(".list").click(function() {
+    $(this).next(".sub").stop().slideToggle(300);
+    $(this).toggleClass('on').siblings().removeClass('on');
+    $(this).next(".sub").siblings(".sub").slideUp(300); // 1개씩 펼치기
+  });
 
 
 
